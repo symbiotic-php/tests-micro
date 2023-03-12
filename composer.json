@@ -1,0 +1,20 @@
+{
+  "name": "symbiotic/tests-micro",
+  "description": "Test for symbiotic/micro package",
+  "version": "1.4.1",
+  "type": "library",
+  "license": ["BSD-3-Clause"],
+  "keywords": [
+    "symbiotic micro framework",
+    "micro framework",
+    "symbiotic tests"
+  ],
+  "require": {
+    "phpunit/phpunit": "~9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Symbiotic\\Tests\\Micro\\": "tests/Micro"
+    }
+  }
+}
